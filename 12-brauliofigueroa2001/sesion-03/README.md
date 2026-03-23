@@ -69,3 +69,5 @@ vscode
 - cada grupo tiene un arduino y un número como tal, esto con objetivo de que no nos mezclemos al momento de conectarnos todos
 
 - existe una carpeta con un password
+
+- linea 69 pixel9, linea 70 mateo123, comentar linea uqe incluye arduinosecrets.h, reemplazar lineas con mi grupo08
