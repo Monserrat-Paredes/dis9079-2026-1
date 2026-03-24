@@ -58,18 +58,26 @@ los 3 primeros puntos son criterios individuales los 3 siguientes puntos son cri
 ## Individual:
 
 1 punto por calidad de la presentación oral
+
 1 punto por bitácora personal textual y visual del trabajo en clases e investigación personal
+
 1 punto por aportes al README.md grupal de texto y visuales explicativas, por las referencias
 
 
 ## Colectivo:
 
 1 punto por diagrama de flujo del proyecto
+
 1 punto por calidad del código fuente para enviar y para recibir
+
 1 punto por funcionamiento del sistema
+
 1 punto: el sistema puede enviar y recibir mensajes
+
 0.5 puntos: el sistema solamente envía o recibe mensajes
+
 0,3 puntos: intentos de enviar o recibir mensajes, aunque no funcionan
+
 0.0 puntos: los intentos no se entienden, no tienen comentarios, están desordenados
 
 
