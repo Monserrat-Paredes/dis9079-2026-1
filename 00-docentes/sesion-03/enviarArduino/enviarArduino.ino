@@ -1,4 +1,4 @@
-// recibirArduino
+// enviarArduino
 // placa se conecta a un servidor mosquitto
 // y envia mensaje a un topic
 // para ser recibido por una placa raspberry pi
@@ -62,20 +62,19 @@ const char *raspicos[] = {
 
 // cambiar por tu numero de grupo
 // yo soy 0, mateo es 12
-int numeroDeGrupo = 1;
+int numeroDeGrupo = 5;
 
 // importar archivo .h con claves
-#include "arduino_secrets.h"
 
-char ssid[] = SECRET_SSID;
-char pass[] = SECRET_PASS;
+char ssid[] = "pixel9";
+char pass[] = "mateo123";
 
 WiFiClient wifiClient;
 MqttClient mqttClient(wifiClient);
 
-const char broker[] = "10.174.124.28";
+const char broker[] = "10.231.155.28";
 int port = 1883;
-const char topic[] = "dis9079/20260323/grupo" + String(numeroDeGrupo);
+const char topic[] = "dis9079/20260323/grupo05";
 
 // intervalo de tiempo para enviar mensaje
 // medido en ms
@@ -113,10 +112,11 @@ void setup()
   // ID del cliente
   // cada cliente debe tener una ID unica
   // este cliente es la placa arduino
-  mqttClient.setId(arduinos[numeroDeGrupo]);
+  mqttClient.setId("arduino05");
 
   // autenticacion con username y clave
-  mqttClient.setUsernamePassword(arduinos[numeroDeGrupo], "dis9079");
+  Serial.println("arduino05");
+  mqttClient.setUsernamePassword("arduino05", "dis9079");
 
   Serial.print("tratando de conectarse al MQTT broker ");
   Serial.println(broker);
@@ -144,10 +144,10 @@ void loop()
   // see: File -> Examples -> 02.Digital -> BlinkWithoutDelay for more info
   unsigned long currentMillis = millis();
 
-  if (currentMillis - previousMillis >= intervalo)
+  if (currentMillis - momentoAnterior >= intervalo)
   {
     // save the last time a message was sent
-    previousMillis = currentMillis;
+    momentoAnterior = currentMillis;
 
     Serial.print("enviando mensaje al topic:");
     Serial.println(topic);
