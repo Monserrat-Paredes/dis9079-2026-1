@@ -28,7 +28,7 @@ personal computer -> pc
   
  ### Tabla  si prefixes
  
- ![tablaSiPerifixes](./imagenes/.png)
+ ![tablaSiPerifixes](./imagenes/siPeriferixes.jpg)
  
 - `Beagleboard.org:` hizo una alianza con un arte en inglaterra.
 - `Bela.io:` es un be adaptado pero solo para audios.
