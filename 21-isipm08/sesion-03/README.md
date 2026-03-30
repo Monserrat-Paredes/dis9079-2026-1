@@ -2,14 +2,21 @@
 
 # lunes 23 marzo 2026
 
-## HOY
-+ MICROCONTROLADORES
 
 ## **Raspberry Pi**
++ Placa microcontroladora de alto rendimiento
++ Seguridad y versatilidad 
 + Computadora (no con mouse ni teclado)
 + Desarrollo de Arduino
 + C/C++ (el que usaremos)
 + int main()
++ Microcontroladores (RP2040, RP2050)
++ MODELOS
+  - Raspberry Pi 5
+  - Raspberry Pi 500+
+  - Raspberry Pi Compute Module 5
+  - Raspberry Pi Zero 2 W
+
 {
     stdio_init_all();
 
@@ -26,14 +33,49 @@
         printf("Hello, world!\n");
         sleep_ms(1000);
     }
-}
-**Mainframe**
+
+![titulo](./imagenes/raspberrypi.jpg) 
+
+---
+
+## **Microcontroladores y microcomputadoes**
++ BeagleBoard
++ Bela Platform
++ Electro-Smith
+
+---
+
+## **Mainframe**
++ Computadora alto rendimiento
++ Gran capacidad memoria y rendimiento
++ Gestiona transacciones en tiempo real
+
+![titulo](./imagenes/mainframe.webp)   
+
+---
 
 ## **Atari**
 
+![titulo](./imagenes/atari.jpg) 
+
+---
+
 ## **Commodore**
++ Empresa de electrónica y hardware
++ Revolución ordenadores personales
+
+![titulo](./imagenes/commodore.jpg)   
+    
+---
 
 ## **Spectrum Zx**
++ Microordenador doméstico
++ Clave para la introducción masiva de la informática
++ Diseño compacto, teclado goma
+
+![titulo](./imagenes/zxspectrum.jpg) 
+
+---
 
 **Monty Pyton**
 + Spam
