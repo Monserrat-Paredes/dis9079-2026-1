@@ -15,3 +15,11 @@ Ya no tenemos que tener una IP distinta cada uno, sino que será siempre la mism
 Modificar desde linea #51 con nuestrso grupos.
 
 Loop: Enviar mensaje y que dirá
+
+### Claude Shannon
+
+El matemático e informático estadounidense que concibió y sentó las bases de la teoría de la información. Sus teorías sentaron las bases de las redes de comunicaciones electrónicas que hoy conectan el mundo. Claude Elwood Shannon nació el 30 de abril de 1916 en Petoskey, Michigan.
+<https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf>
+
+![shannon](./imagenes/shannon.webp)
+![osilayers](./imagenes/osi.webp)
