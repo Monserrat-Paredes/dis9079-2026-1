@@ -2,7 +2,7 @@
 
 lunes 30 marzo 2026
 
-5g uy rapida pero bajo alcance
+5g muy rapida pero bajo alcance
 
 instalar tiger vnc
 
