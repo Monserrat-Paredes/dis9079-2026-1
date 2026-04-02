@@ -43,3 +43,4 @@ Te odiamos MQTT
 ![teodiamos](./imagenes/teodiamos.jpeg)
 
 Hola Aarón soy yo de nuevo, que bacan.
+adios aarón nos vemos
