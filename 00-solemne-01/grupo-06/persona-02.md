@@ -1,4 +1,4 @@
-# persona-02
+# persona-02 - Isidora Pérez Maulén
 
 investigaciones individuales
 
