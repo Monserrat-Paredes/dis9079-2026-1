@@ -1,14 +1,14 @@
 # Grupo-06
 
-## integrantes
+## Integrantes
 
 * Renata De Los Ángeles Arévalo Urra / https://github.com/arevalourra/dis9079-2026-1/tree/main/06-arevalourra
 * Isidora Andrea Pérez Maulén / https://github.com/arevalourra/dis9079-2026-1/tree/main/21-isipm08
 * Nicolás Elías Valdés Greve / https://github.com/arevalourra/dis9079-2026-1/tree/main/29-nicolasvaldesgreve
 
-## descripción del proyecto
+## Descripción del proyecto
 
-## materiales usados en solemne-01
+## Materiales usados en Solemne-01
 
 | Componente | Cantidad | Valor Unidad | Link |
 | --- | --- | --- | --- |
@@ -20,30 +20,30 @@
 | Arduino UNO R4 WiFi | 1 | $38.990 | <https://arduino.cl/producto/arduino-uno-r4-wifi/?srsltid=AfmBOopJcCsivMRX00i4ZKVCJATlhSM2Bc6SCRhEdXzw6r1x08Ui9740> |
 | Raspberry Pi Pico 2 W | 1 | $14.990 | <https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers> |
 
-## código usado con Adafruit IO
+## Código usado con Adafruit IO
 
-### código para enviar
-
-```cpp
-// rellenar
-```
-
-### código para recibir
+### Código para enviar
 
 ```cpp
 // rellenar
 ```
 
-## investigaciones individuales
+### Código para recibir
 
-rellenar en el mismo orden que los integrantes del grupo
+```cpp
+// rellenar
+```
 
-[persona-01.md](./persona-01.md)
-[persona-02.md](./persona-02.md)
-[persona-03.md](./persona-03.md)
+## Investigaciones Individuales
+
+[persona-01.md](./persona-01.md)  - Renata Arévalo Urra
+
+[persona-02.md](./persona-02.md) - Isidora Pérez Maulén
+
+[persona-03.md](./persona-03.md) - Nicolás Valdés Greve
 
 ## bibliografía
 
-lista de enlaces, libros, clases, tutoriales, etc
+Lista de enlaces, libros, clases, tutoriales, etc
 
 * <https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/>, en donde se explica cómo funciona la plataforma de Adafruit IO incluyendo imagenes para que sea más fácil de entender.
