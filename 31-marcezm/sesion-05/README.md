@@ -18,12 +18,15 @@ con mi user de github y luego un guion
 #define IO_KEY       "bla"
 
 
+
 // reemplazar por nombre y clave de la wifi
 #define WIFI_SSID "bla"
 #define WIFI_PASS "bla"
 
+
 // comment out the following lines if you are using fona or ethernet
 #include "AdafruitIO_WiFi.h"
+
 
 #if defined(USE_AIRLIFT) || defined(ADAFRUIT_METRO_M4_AIRLIFT_LITE) ||         \
     defined(ADAFRUIT_PYPORTAL)
