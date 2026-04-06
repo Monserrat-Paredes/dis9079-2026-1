@@ -8,6 +8,10 @@
 
 ## Descripción del proyecto
 
+
+![titulo](./imagenes/primerapruebapotenciometro.gif)
+
+
 ## Materiales usados en Solemne-01
 
 | Componente | Cantidad | Valor Unidad | Link |
