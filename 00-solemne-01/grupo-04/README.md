@@ -4,7 +4,7 @@
 
 * martina alegria
 * antonella lavalle
-* catalina salinas
+* catalina salinas/https://github.com/catasal/dis9079-2026-1
 
 ## descripción del proyecto
 
