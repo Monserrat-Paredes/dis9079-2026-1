@@ -48,4 +48,28 @@ Así se ve en el Dashboard que creé:
 
 ![streams en dashboard](./imagenes/dashboardstreams.png)
 
+Como fue tan increíble decidí probar [este tutorial](https://learn.adafruit.com/adafruit-io-basics-color) que estába en la página de Adafruit que enviaron , que es sobre cómo controlar un LED RGB!
+
+Seguí paso a paso las instrucciones, busqué en los ejemplos de la biblioteca de Adafruit el número 13 que es el que tiene el código para el RGB:
+
+![ejemplo 13 rgb](./imagenes/example13.png)
+
+Luego vi cómo se debian hacer las conecciones entre el LED y el arduino, fue fácil porque ya lo había hecho antes y tenía los materiales, así se veía conectado y tocaba probarlo
+
+![LED conectado a arduino](./imagenes/circuitoled.jpg)
+
+Como seguí el tutorial acá ya tenia hecho el dashboard con la rueda de color, al tirar el código al arduino todo funcionó correctamente y desde la página podia controlar el color del LED, lo puse morado que lindo me encantó
+
+![rueda de color en dashboard](./imagenes/dashboardrgb.png)
+
+Así se veía el LED en físico ya con el color:
+
+![LED morado físico](./imagenes/ledmorado.jpg)
+
+Los valores se muestran en el serial monitor y en la sección de Feeds según se vaya modificando el color en el dashboard
+
+![valores serial monitor](./imagenes/serialmonitorrgb.png)
+
+![valores feeds](./imagenes/valoresfeeds2.png)
+
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
