@@ -7,6 +7,9 @@ De primeras segui las indicaciones de como crearme una cuenta en adafruit y todo
 
 Resulta que si era el cable, logramos correr el codigo y prender luces en el arduino pero tengo dificultades con la conexion con adafruit, estoy revisando bien las credenciales y vere un tutorial
 
+Otro aprendizaje, revisamos bien el contenido y en arduino los valores que habia que cambiar por las credenciales nuestras, lo hicimos mal, y estbamos usando la contraseña personal mas no la que te da el sitio, la aio key.
+Por otro lado intrusiando logramos conectar la raspberry pi a Adafruit
+
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
 ##Kunihiko Morinaga
 
