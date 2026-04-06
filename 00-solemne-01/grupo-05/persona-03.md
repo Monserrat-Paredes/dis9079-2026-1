@@ -67,6 +67,15 @@ Por mientras subí el código ahora con un arduino mañoso que funciona cuando q
 
 Por otro lado, cami pudo enviar desde su compu, así que perfect, ahora queremos modificar el código para que envíe algo más que números. seguimos trabajando.
 
+Queremos como grupo, enviar un sonido desde un arduino conectado a un potenciómetro, y que este potenciómetro controle el volumen de el sonido que sonará en el otro arduino que recibirá.
+El arduino que recibe tendrá conectado un altavoz, por el que sonará el sonido enviado y en la pantalla de leds se verá una barra de leds que muestre el volumen de manera gráfica.
+
+logramos hacer que el potenciómetro funcionara!
+
+![pot](./imagenes/pot.png)
+![pot](./imagenes/potfeed.png)
+![pot](./imagenes/potconección.heic)
+
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
 
 ## Rafael Lozano-Hemmer
