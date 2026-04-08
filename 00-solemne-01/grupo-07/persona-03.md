@@ -16,8 +16,6 @@ https://learn.adafruit.com/assets/34840
 
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
 
-![Lookphoto_79](https://github.com/user-attachments/assets/5dea1300-0d4e-480d-8db7-1fa023086be5)
-
 ## Minoru Fujimoto
 Minoru Fujimoto es un artista, doctor en filosofia ,coreografo y doctor en computación vestible de la Universidad de Kobe. 
 Tras trabajar en el departamento de informatica del diseño en la Universidad de Arte de Musashino, fundo MPLUSPLUS (make ++), firma que integra Led en los textiles a traves de un sistema de control inalambrico, segun ellos mismos trabajan con la "sincronización inalámbrica de dispositivos a gran escala y la integración audiovisual precisa hasta la robótica avanzada".
@@ -27,6 +25,8 @@ La programación de las prenda tenian ¨hilos blandos y textiles incrustados 10.
 
 No es primera vez que Fujimoto (MPLUSPLUS) colabora con Morinaga y con la empresa LED Tokyo, que alquila pantallas LED de gran escala, tambien realizaron coleccion 2025-26 A/W “ SCREEN ” y una colaboracion con Beyonce, donde ocupo uno de sus vestidos en su gira Cowboy Carter Tour, en donde Fujimoto tambien desarrollo textiles LED capaces de mostrar imagenes controladas a distancia.
 Si bien la tecnología LED portátil ya había sido abordada por algunas marcas de  moda experimental, MPLUSPLUS incorporó sus pantallas en diversos escenarios muy distintos, desde desfiles hasta festivales y conciertos (2022 Stray Kids, MAMA awards) generando toda una fantasia entre el dialogo del arte y la tecnologia.
+
+![Lookphoto_79](https://github.com/user-attachments/assets/5dea1300-0d4e-480d-8db7-1fa023086be5)
 
 <img width="1280" height="720" alt="image_1" src="https://github.com/user-attachments/assets/21979053-141c-4602-b4b0-f6b3ec7f28e3" />
 
