@@ -8,7 +8,7 @@
 
 * Computador Mainframe
 
-* Microcontrolador: Cima/Penca/Lento
+* Microcontrolador: Cuma/Penca/Lento
 * Computadores: Rápido 
 
 * SDK: Kit de desarrollo de software
@@ -30,7 +30,7 @@
 * Monome
 * Critter and Guitar 
 * Bela.Gem Stereo
-* Nike
+* Nime
 
 ### Ver primer capítulo de Monty Python 
 
