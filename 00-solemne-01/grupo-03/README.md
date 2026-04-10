@@ -7,6 +7,17 @@
 * Angel Sabogal
 
 ## descripción del proyecto
+Empezamos el proyecto explorando la biblioteca de aprendizaje de Adafruit IO, encontramos un tutorial en [Adafruit IO](https://learn.adafruit.com/adafruit-io-basics-color) explicando la posibilidad de enviarle una señal desde Adafruit al Arduino, de forma que se puede lograr cambiar los colores RGB de manera remota, sin cables y hasta desde otro dispositivo electrónico.
+
+Dicho esto, unimos las conexiones del RGB al protoboard y del protoboard al Arduino: Lo primero sería conectar las 4 patas del LED RGB al protoboard, después poner 3 resistencia 220Ω, estas deben estar así:
+* **R** - La luz roja o luz red es la de izquierda inicial; esta tiene que ir acompañada de una resistencia de 220Ω conectada a R y a su vez conectada al pin 4 del Arduino.
+* **GND** - La segunda pata (asumiendo la izquierda R) es la de a tierra, debe ir conectada directo al Arduino en el pin 3V.
+* **G** - La luz verde o luz green es la siguiente después de la GND, esta tiene que ir con una resistencia de 220 Ω y a su vez conectada al pin 5 del Arduino.
+* **B** - La luz azul o luz blue es la siguiente después de la G, esta tiene que ir con una resistencia de 220 Ω y a su vez conectada al pin 2 del Arduino.
+
+Debe quedar así:
+![LED conectado a arduino](./imagenes/circuitoled.jpg)
+
 
 Para llegar a la conexión del LED RGB primero tuvimos que tener una cuenta de Adafruit que en este caso nos proporcionó una mejora el profesor para tener la cuenta de pago y esta la hicimos cada uno para testear individualmente con nuestros correos UDP.
 
