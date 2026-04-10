@@ -37,3 +37,7 @@ con lo que propone, se me viene mucho a la cabeza **Wallace y Gromit**. Cuando e
 
 También queria rescatar que en la entrevista ella habla de tener que _permanecer fieles a nuestros valores humanos y decidir qué productos pertenecen a nuestras vidas y qué productos no_, _En lugar de huir o ignorar el potencial, necesitamos centrarnos en lo bueno que puede traer y rechazar en nuestras vidas esas cosas que nos alejan de lo que nos importa._ me hace mucho sentido ella como se desenvuelve en la disciplina y lo que enseña al respecto, a mi me daría miedo que los humanos terminemos como en *+WALL-E**, pero saber que hay personas que observan la computación o la robótica desde una vereda mucho mas artística o sensible con lo que ya está vivo, me parece bello.
 
+
+
+<img src="https://github.com/magdalenabalart/dis9079-2026-1/blob/main/00-solemne-01/grupo-02/imagenes/carladiana.jpg" width=30% height=30%>
+
