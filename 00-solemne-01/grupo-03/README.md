@@ -10,6 +10,8 @@
 
 Consiste en un circuito que permite controlar un LED RGB de forma remota. A través de un dashboard en la nube (Adafruit IO), el usuario selecciona un color que se transmite vía Wi-Fi a un Arduino, el cual procesa la información y activa los pines físicos para igualar el color digital en un LED a tiempo real.
 
+## proceso
+
 Empezamos el proyecto explorando la biblioteca de aprendizaje de Adafruit IO, encontramos un tutorial en [Adafruit IO](https://learn.adafruit.com/adafruit-io-basics-color) explicando la posibilidad de enviarle una señal desde Adafruit al Arduino, de forma que se puede lograr cambiar los colores RGB de manera remota, sin cables y hasta desde otro dispositivo electrónico.
 
 Dicho esto, unimos las conexiones del RGB al protoboard y del protoboard al Arduino:
@@ -270,7 +272,7 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 // rellenar
 ```
 
-## imágenes
+## LED a tiempo real
 
 ![led a tiempo real](./imagenes/ledenclase.gif)
 
