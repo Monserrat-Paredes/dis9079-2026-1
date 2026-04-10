@@ -39,5 +39,5 @@ También queria rescatar que en la entrevista ella habla de tener que _permanece
 
 
 
-<img src="https://github.com/magdalenabalart/dis9079-2026-1/blob/main/00-solemne-01/grupo-02/imagenes/carladiana.jpg" width=30% height=30%>
+<img src="https://github.com/magdalenabalart/dis9079-2026-1/blob/main/00-solemne-01/grupo-02/imagenes/carladiana.jpg" width=30% height=30%> <img src="https://github.com/magdalenabalart/dis9079-2026-1/blob/main/00-solemne-01/grupo-02/imagenes/carladiana02.png" width=30% height=30%>
 
