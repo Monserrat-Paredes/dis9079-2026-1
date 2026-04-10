@@ -3,6 +3,104 @@
 investigaciones individuales
 
 ## sobre adafruit i/o
+
+Adafruit IO es una plataforma en la nube diseñada para gestionar datos de dispositivos físicos conectados a internet (IoT), poniendo énfasis en la visualización, interacción en tiempo real y facilidad de uso. Fue desarrollada por Adafruit, una empresa muy conocida en el mundo del hardware abierto y la educación tecnológica.
+
+Adafruit IO funciona como un intermediario entre el mundo físico y el mundo digital.
+
++ Traduce fenómenos físicos (temperatura, luz, sonido, presencia, etc.) en datos digitales
++ Permite almacenar esos datos en servidores remotos (la nube)
++ Te deja interactuar con esos datos desde interfaces visuales o desde otros sistemas
+
+## Estructura interna
+
+## Feeds (flujos de datos)
+
++ Cada feed almacena una variable
++ Funciona como una línea temporal de datos
++ Puedes leer y escribir en ellos
+
+## Dashboards (interfaces visuales)
+
+* Ver datos en gráficos (líneas, gauges, indicadores)
+* Crear botones o sliders para enviar comandos
+
+Es básicamente una interfaz gráfica conectada a los feeds
+
+## Blocks (componentes visuales)
+
+Dentro de los dashboards
+
+* Gráficos
+* Interruptores
+* Indicadores
+* Mapas, texto, etc.
+
+Cada block está vinculado a un feed
+
+## Triggers (automatización)
+
+Permiten crear reglas del tipo:
+
++ *Si pasa X → entonces hacer Y*
+
+Ejemplo: Si temperatura > 30°C → enviar notificación o activar dispositivo
+
+## Integraciones
+
+Adafruit IO se puede conectar con:
+
++ Dispositivos físicos (Arduino, ESP8266, ESP32)
++ APIs externas
++ Otras plataformas (como IFTTT)
+
+## Comunicación (parte técnica clave)
+
+## MQTT (Message Queuing Telemetry Transport)
+
++ Protocolo ligero, ideal para dispositivos con poca potencia
++ Funciona por publish/subscribe:
+
+  + Un dispositivo “publica” datos
+  + Otros “se suscriben” para recibirlos
+
+## HTTP
+
++ Más simple pero menos eficiente en tiempo real
++ Funciona con solicitudes tipo GET/POST
+
+## Flujo completo de datos
+
+1. Un sensor mide algo (ej: luz)
+2. Un microcontrolador (ej: ESP32) procesa el dato
+3. Lo envía a Adafruit IO vía MQTT o HTTP
+4. El dato se guarda en un feed
+5. El dashboard lo visualiza
+6. Opcional: un trigger genera una acción
+
+## Enfoque conceptual
+
+Adafruit IO no es solo técnico:
+es una herramienta para diseñar sistemas interactivos sensibles al entorno.
+
+Permite trabajar con:
+
++ Datos como material de diseño
++ Interacción en tiempo real
++ Relaciones causa–efecto entre entorno y objeto
+
+## Ventajas
+
++ Muy accesible 
++ Visualización rápida sin programar interfaces complejas
++ Integración directa con hardware educativo
+
+## Limitaciones
+
++ No es tan potente como soluciones industriales
++ Tiene límites en la versión gratuita
++ Dependes de conexión a internet
+
 <img width="1080" height="810" alt="IMG_0057" src="https://github.com/user-attachments/assets/0c5daedb-0d63-4025-a788-e82a25d963d7" />
 
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
