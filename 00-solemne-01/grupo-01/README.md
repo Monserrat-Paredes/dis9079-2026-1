@@ -24,7 +24,7 @@ Por un lado, el Arduino es capaz de almacenar datos, en este caso si el botón e
 ## código usado con Adafruit IO
 
 > En este código lo que hicimos fue incluir la pantalla OLED SS1306 con una animación/pictograma sacado de [WOKWI](https://animator.wokwi.com/)
-> Donde definimos el tamaño de la pantalla y definir una variable en el feed de Adafruit. En este caso, utilizamos un botón en los dashboards de Adafruit para prender y apagar la pantalla Oled desde otro computador; y que en esta salga la animación dependiendo de si está prendida. 
+> Donde definimos el tamaño de la pantalla y una variable en el feed de Adafruit. En este caso, utilizamos un botón en los dashboards de Adafruit para prender y apagar la pantalla Oled desde otro computador; y que en esta salga la animación dependiendo de si está prendida. 
 
 ```cpp
 // Adafruit IO Publish Example
