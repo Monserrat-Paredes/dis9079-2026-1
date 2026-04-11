@@ -13,6 +13,8 @@ En Adafruit IO, se pueden visualizar datos en tiempo real e  interactuar con ell
 
 Pude crear una cuenta súper fácil m, solo había que seguir los pasos de la página. Después de hacerme una cuenta me puse a revisar que cosas tenía y que podía hacer, tiene varios tutoriales en la misma página, así que entender como ocuparía no fue tan difícil como creí.
 
+https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/
+
 ## Conceptos importantes
 
 * ### Feed
@@ -25,7 +27,7 @@ Pude crear una cuenta súper fácil m, solo había que seguir los pasos de la p�
 
 * ### Blockly
 
-  * 
+  * Herramienta que permite crear interacciones entre los dispositivos y la plataforma.
 
 
 ### sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
