@@ -114,6 +114,7 @@ Así se ve cuando creas la cuenta y configuraciones:
 Después de crear la cuenta se ve así el inicio de sesión:
 
 
+
 <img width="1374" height="736" alt="inicio io" src="https://github.com/user-attachments/assets/176ee3ef-e288-40c9-aaba-d337fe1b199c" />
 
 
@@ -195,7 +196,7 @@ nombreFeed->save(contador);
 -Envía datos a la nube
 
 
-##Problemas durante el proceso: 
+## Problemas durante el proceso: 
 
 1.Caracteres extraños en monitor serial
 
@@ -215,7 +216,10 @@ nombreFeed->save(contador);
 
 -Se corrigió a 115200
 
-![solucion](./imagenes/audiodeaudio.png)
+
+
+<img width="1112" height="589" alt="Baudio auduino" src="https://github.com/user-attachments/assets/65ba7c18-ab59-43ae-88b0-3bdae3e7ecaf" />
+
 
 
 ## 2. El "Botón de Reset" accidental
@@ -234,6 +238,7 @@ nombreFeed->save(contador);
 
  Datos visualizados en Adafruit IO
  
+
  
 <img width="1470" height="956" alt="prueba 1 grupo01" src="https://github.com/user-attachments/assets/06febfc2-47be-4c84-9614-2be0a94c92ba" />
 
@@ -255,21 +260,29 @@ nombreFeed->save(contador);
 -El conflicto eléctrico desapareció, permitiendo que el botón cumpliera su función real: enviar una señal digital que el Arduino procesa y transmite exitosamente a la nube en Adafruit IO.
 
 
-VIDEOOOOOO
+
+
+https://github.com/user-attachments/assets/7d37e7d6-8936-4bfe-80cf-9d870718c144
+
+
+
 
 
 Adafruit IO para ver gráficos en tiempo real con los datos enviados.
 
 
-![grafico 1](./imagenes/prueba2grupo01.png)
+
+<img width="1470" height="956" alt="prueba 2 grupo01" src="https://github.com/user-attachments/assets/7f8acb54-61d5-4375-9776-09911aa10fb1" />
 
 
-![grafico 2](./imagenes/prueba3grupo01.png)
+
+<img width="1470" height="956" alt="prueba 3 grupo01" src="https://github.com/user-attachments/assets/bfdf2bf6-948d-4b50-9b00-93c9e9332339" />
+
 
 
 ## Reflexión del proceso
 
-Aprendizajes técnicos:
+*Aprendizajes técnicos:
 
 -Diferencia entre hardware, software y firmware.
 
@@ -280,7 +293,7 @@ Aprendizajes técnicos:
 -Comunicación entre dispositivos remotos
 
 
-Aprendizajes prácticos:
+*Aprendizajes prácticos:
 
 -Los errores más comunes son simples (baudios, claves).
 
@@ -397,6 +410,64 @@ void loop()
 }
 
 
+## Investigación: Arte y tecnología inalámbrica
+
+Gilberto Esparza
+
+Reside en San Miguel de Allende y la Ciudad de México.
+
+Graduado de la Escuela de Artes Plásticas de la Universidad de Guanajuato y un año de intercambio en la Facultad de Bellas Artes de San Carlos en Valencia, España.
+
+Investiga la tecnología como posibilidad para plantear preguntas y soluciones a los impactos de la huella humana sobre la vida en la tierra, a partir de una reivindicación de la inteligencia inherente a la vida y replanteando la relación de las sociedades humanas con el entorno natural.
+
+
+Conocido por su proyecto: Plantas Nómadas.
+
+Plantas Nómadas es un proyecto de investigación que surge de reflexionar sobre los impactos ambientales y sociales que genera la actividad humana.
+
+Es una especie híbrida, conformada por diversos organismos que coexisten en simbiosis para sobrevivir en entornos contaminados. El agua, fuente de energía vital para la sobrevivencia, es uno de los recursos más afectados por la contaminación.
+
+
+Sus obras son robots biotecnológicos que viven en entornos de ríos contaminados. 
+
+-La Tecnología: Utiliza celdas de combustible microbianas que generan electricidad a partir de la descomposición de materia orgánica en el agua.
+
+-Inalámbrico/IoT: El robot se desplaza de forma autónoma buscando agua contaminada para "alimentarse". Transmite datos sobre la calidad del agua y su propia ubicación, creando un mapa vivo de la degradación ambiental. Es, literalmente, un "sensor vivo" que habita la ciudad.
+
+
+Fotos del proyecto:
+
+![plantas nomadas1](https://github.com/user-attachments/assets/4a845657-1d32-436e-b5f1-31cf06fae21d)
+
+
+![plantas nomadas2](https://github.com/user-attachments/assets/12098d65-fc21-40b3-816b-1f9296989a3f)
+
+
+Dibujo de la contaminación (problematica)
+
+<img width="1470" height="956" alt="plantas nomadas4" src="https://github.com/user-attachments/assets/c39dbe2f-59db-46e8-9725-92ee6973f528" />
+
+
+Informacion sobre bio: https://gilbertoesparza.net/bio/
+
+Proyecto: https://gilbertoesparza.net/portfolio/plantas-nomadas/ 
+
+Video descriptivo: https://www.youtube.com/watch?v=US9q2ayKANk&t=2s 
+
+Redes sociales: https://www.instagram.com/gilbertoesparzaglez/ 
+
+
+
+Planta Nómada Fitocrista errantis:
+
+
+<img width="901" height="1030" alt="plantas nomadas3" src="https://github.com/user-attachments/assets/8b325e61-9955-4f7e-b968-e2413661cb5a" />
+
+
+
+Uso de Tecnología: Robótica autónoma y sensores de agua.
+
+Así como nosotros configuramos una clave de WiFi para que nuestro Arduino se conecte, Gilberto Esparza configura sus robots para que 'entiendan' la red de contaminación de un río, transformando un dato invisible en una acción física.
 
 
 
