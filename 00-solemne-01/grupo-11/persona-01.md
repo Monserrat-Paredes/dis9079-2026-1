@@ -5,6 +5,7 @@ investigaciones individuales
 ## sobre adafruit i/o
 
 ### Proceso de instalación
+
 Primero investigué qué era Adafruit IO, y es una plataforma que permite conectar dispositivos a internet para enviar y recibir datos.
 
 Lo primero que hice fue crear una cuenta, después de eso entré a IO, donde aparecen los feeds y dashboards.
@@ -17,13 +18,14 @@ Después configuré el código agregando mi usuario, la key y la red WiFi. Estos
 - Seleccionar placa: Arduino Uno R4 WiFi
 - Abrir “Administrar bibliotecas”
   
- ### Instalar:
+### Instalar
+
 - Adafruit MQTT Library
 - ArduinoHTTPClient
 - Adafruit IO Arduino (última versión)
   
- ### Configurar en el código:
- 
+### Configurar en el código
+
 - WiFi (nombre y contraseña)
 - Username
 - Key de Adafruit IO
@@ -32,7 +34,7 @@ Después configuré el código agregando mi usuario, la key y la red WiFi. Estos
 - Seleccionar puerto
 - Subir código
   
-### Conceptos básicos:
+### Conceptos básicos
 
 ### Feeds
 
@@ -54,7 +56,6 @@ WiFi = conecta todo
 
 ![foto](./imagenes/anaysadafruit.png)
 
-
 ![foto](./imagenes/arduinoadafruit.png)
 
 ### prendizajes y dificultades
@@ -63,11 +64,11 @@ Me cuesta entender los errores del código porque no son claros para mi aún y t
 
 Aprendí a enviar datos en tiempo real por WiFi y que es importantisimo configurar bien los datos para que todo funcione.
 
-También me guíe de este tutorial: https://mkelectronica.com/?s=Aprende+a+utilizar+la+plataforma+Adafruit+IO
+También me guíe de este tutorial: <https://mkelectronica.com/?s=Aprende+a+utilizar+la+plataforma+Adafruit+IO>
 
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
 
-#Incertitudes" by Ying Gao
+# Incertitudes" by Ying Gao
 
 Ying Gao, diseñadora de moda afincada en Montreal y profesora en la Universidad de Quebec en Montreal, exdirectora del Programa de Moda, Joyería y Diseño de Accesorios en HEAD-Genève, Ying Gao ha alcanzado distinción personal gracias a sus numerosos proyectos creativos presentados en más de cien exposiciones alrededor del mundo. Su variada obra creativa ha tenido cobertura mediática internacional: Time, Vogue, The New York Times, Dazed and Confused, Interni, ARTE. Es una de las "Fab 40: Canadá" seleccionadas por la revista Wallpaper.
 
@@ -81,20 +82,20 @@ Ying Gao cuestiona nuestras suposiciones sobre la ropa combinando diseño de mod
 
 ![foto](./imagenes/investigacion2.jpg)
 
-### Video del proyecto: https://vimeo.com/73585344
+### Video del proyecto: <https://vimeo.com/73585344>
 
 Elegí a Ying Gao y su obra Incertitudes porque me gusta mucho lo que quiere representar, la inspiración que tiene y la forma en que lo transmite, cambia muchísimo las ideas que se tiene del vestuario, es una mezcla de cuerpo, máquinas y diseño.
 
 Me gusta como tiene una crítica más profunda y como muestra cómo hoy todo es rápido e inestable, y eso lo refleja la ropa que siempre está cambiando pero no sabes cómo va a reaccionar, igual que en la vida donde no todo se puede controlar.
 
-Recomiendo mucho ver sus otras obras :) ( https://yinggao.ca/ )
+Recomiendo mucho ver sus otras obras :) ( <https://yinggao.ca/> )
 
 Tambien me pillé unas bandas por spotify que me parecieron interesantes:
 
-Holly Herndon - https://open.spotify.com/intl-es/artist/2c9yn5DJQd5es7YMY92ikZ?si=yO9admdrQYydrW3eNt7LrQ
+Holly Herndon - <https://open.spotify.com/intl-es/artist/2c9yn5DJQd5es7YMY92ikZ?si=yO9admdrQYydrW3eNt7LrQ>
 
 Usa una IA creada por ella y su equipo para hacer música, donde la voz y los datos se transmiten y procesan digitalmente.
 
-Ryoji Ikeda - https://open.spotify.com/intl-es/artist/5y835stYdAVOoNOq5EBMxz?si=DmoOmGFzSN2j0gOLu-MzYQ
+Ryoji Ikeda - <https://open.spotify.com/intl-es/artist/5y835stYdAVOoNOq5EBMxz?si=DmoOmGFzSN2j0gOLu-MzYQ>
 
 Hace música con datos y señales digitales, mostrando cómo la información se transmite y se convierte en sonido.

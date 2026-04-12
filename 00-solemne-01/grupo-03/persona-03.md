@@ -20,7 +20,7 @@ Contiene botones remotos bidireccionales donde se pueden apagar, encender cosas 
 
 Guarda el historial de datos, pueden descargarse y también compartirse.
 
-**Siguiendo los pasos dados en la carpeta Solemne-01**
+Siguiendo los pasos dados en la carpeta Solemne-01
 
 - Arduino IDE ya estaba instalado previamente en mi computadora por las clases anteriores asi que pase directamente con la instalación de Adafruit IO para Arduino
 
@@ -28,8 +28,8 @@ Guarda el historial de datos, pueden descargarse y también compartirse.
 
 - Y luego se terminaron de instalar todas las bibliotecas que nesecitaba
 
-- en lo que se descargaban las bibliotecas me cree la cuenta en Adafruit https://io.adafruit.com/ con mi correo UDP
- 
+- en lo que se descargaban las bibliotecas me cree la cuenta en Adafruit <https://io.adafruit.com/> con mi correo UDP
+
 ![instalación 2](./imagenes/instalacion2.png)
 
 y al terminar la instalación revise las anotaciones de mis compañeros de grupo para ponerme al día con lo que no alcancé a ver hoy en clases y les preguntaré en persona para incorporar mejor los aprendizajes como por ejemplo: el código de arduino en las líneas donde debe ir el username, la active key, mi WiFi y la contraseña del código.
@@ -56,9 +56,9 @@ Luego procedemos a crear el bloque de color y es importante saber como es el fun
 
 a continuación se nos muestra como proceder con el alambrado con las siguientes piezas:
 
-- 1x Feather compatible con Adafruit IO 
-- 1 LED RGB difuso - ánodo común 
-- 3 resistencias de 560 ohmios 
+- 1x Feather compatible con Adafruit IO
+- 1 LED RGB difuso - ánodo común
+- 3 resistencias de 560 ohmios
 - 4 cables de puente
 
 Y los nuestros en realidad son:
@@ -83,7 +83,7 @@ como no me apareceran las opciones al no tener el arduino sigo dejando las indic
 
 ![Ejemplo de tutorial](./imagenes/configarduino.png)
 
-**Código Arduino**
+### Código Arduino
 
 Y para finalizar te presentan los códigos de Arduino, recordar que para esta caso de mi investigación el circuito está hecho con una placa distinta aunque funciona de igual manera con la que tenemos:
 
@@ -110,7 +110,7 @@ En la función de configuración, nos conectamos a Adafruit IO y adjuntamos una 
 
 El código esperará hasta que tengas una conexión válida a Adafruit IO antes de continuar con el programa. Si tienes algún problema de conexión, revisa el archivo config.h para comprobar si hay algún error tipográfico en tu nombre de usuario o clave.
 
-```
+```cpp
 void setup() {
 
   // start the serial connection
@@ -149,7 +149,7 @@ void setup() {
 
 A continuación, tenemos la función principal. La primera línea de la función de bucle debe estar presente al principio de cada bucle. Ayuda a mantener el dispositivo conectado a Adafruit IO y procesa los datos entrantes.loop()io.run();
 
-```
+```cpp
 void loop() {
 
   // io.run(); is required for all sketches.
@@ -165,7 +165,7 @@ El último fragmento de código es la función handleMessage . Esta función se 
 
 Utilizamos las funciones data->toRed() , data->toGreen() y data->toBlue() para convertir los valores de color hexadecimales entrantes a enteros que serán compatibles con analogWrite .
 
-```
+```cpp
 // this function is called whenever a 'color' message
 // is received from Adafruit IO. it was attached to
 // the color feed in the setup() function above.
@@ -192,7 +192,7 @@ void handleMessage(AdafruitIO_Data *data) {
 
 Se sube el código a la placa y se abre el monitor serie arduino
 
-```
+```txt
 Connecting to Adafruit IO....
 
 Adafruit IO connected.
@@ -200,7 +200,7 @@ Adafruit IO connected.
 
 Ahora se puede ver el bloque de color y debería verse el bloque en el monitor serie de Arduino
 
-```
+```cpp
 Received:
   - R: 0
   - G: 0
@@ -231,18 +231,18 @@ Por ejemplo, en varias de sus obras usa dispositivos que captan señales del cue
 
 También trabaja mucho con datos en tiempo real, lo que implica el uso de redes inalámbricas para enviar y recibir información constantemente del entorno.
 
-Mostrando luces, proyecciones o algo que tenga una estructura digital pensada de fondo, dependiendo de lo que conviva con el proyecto se muestra uno o otro resultado, haciendolo más interesante para el público. 
+Mostrando luces, proyecciones o algo que tenga una estructura digital pensada de fondo, dependiendo de lo que conviva con el proyecto se muestra uno o otro resultado, haciendolo más interesante para el público.
 
 Sus obras cambian dependiendo de quién las use o cuántas personas participen, y al final me quedo con esta idea de que no solo se usan redes inalámbricas o Arduino para proyectos técnicos, sino que también, visto desde una forma artística, se pueden usar para interactuar con las personas, tal y como se hace con el diseño.
 
 ![Foto Rafael Lozano](./imagenes/rafael.png)
 
-**Bibliografía**
+### Bibliografía
 
-- Ars Electronica. (s.f.). Rafael Lozano-Hemmer y arte interactivo. Recuperado de: https://ars.electronica.art
+- Ars Electronica. (s.f.). Rafael Lozano-Hemmer y arte interactivo. Recuperado de: <https://ars.electronica.art>
 
-- Museum of Modern Art (MoMA). (s.f.). Rafael Lozano-Hemmer. Recuperado de: https://www.moma.org
+- Museum of Modern Art (MoMA). (s.f.). Rafael Lozano-Hemmer. Recuperado de: <https://www.moma.org>
 
-- Rafael Lozano-Hemmer. (s.f.). Sitio oficial. Recuperado de: https://www.lozano-hemmer.com
+- Rafael Lozano-Hemmer. (s.f.). Sitio oficial. Recuperado de: <https://www.lozano-hemmer.com>
 
-- Tate. (s.f.). Artistas: Rafael Lozano-Hemmer. Recuperado de: https://www.tate.org.uk
+- Tate. (s.f.). Artistas: Rafael Lozano-Hemmer. Recuperado de: <https://www.tate.org.uk>

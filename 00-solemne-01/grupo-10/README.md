@@ -1,4 +1,5 @@
-# grupo-10 
+# grupo-10
+
 ## Comunicaciones inalambricas
 
 ## integrantes
@@ -136,18 +137,18 @@ void loop()
 }
 ```
 
-#### Config.h
+#### config.h
 
 ```cpp
 // // reemplazar por las credenciales de aaron
 // o por las de tu cuenta
-#define IO_USERNAME  "udpmontoyamoraga"
-#define IO_KEY       "xxxxxxxxxxxxxxxxxxxxxx"
+#define IO_USERNAME  "bla"
+#define IO_KEY       "bla"
 
 
 // reemplazar por nombre y clave de la wifi
-#define WIFI_SSID "pixel9"
-#define WIFI_PASS "mateo123"
+#define WIFI_SSID "bla"
+#define WIFI_PASS "bla"
 
 // comment out the following lines if you are using fona or ethernet
 #include "AdafruitIO_WiFi.h"
@@ -169,8 +170,6 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS, SPIWIFI_SS,
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 #endif
 ```
-![proceso](./imagenes/config.png)
-
 
 ## investigaciones individuales
 
@@ -181,30 +180,30 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 [antfuentealba](./persona-03.md)
 
 ## bibliografía
-- Adafruit Industries. *Welcome to Adafruit IO*.  
-  https://learn.adafruit.com/welcome-to-adafruit-io  
 
-- Adafruit Industries. *Adafruit IO Basics: Dashboards*.  
-  https://learn.adafruit.com/adafruit-io-basics-dashboards  
+* Adafruit Industries. *Welcome to Adafruit IO*.  
+  <https://learn.adafruit.com/welcome-to-adafruit-io>  
 
-- Adafruit Industries. *Adafruit IO Basics: Digital Input*.  
-  https://learn.adafruit.com/adafruit-io-basics-digital-input  
+* Adafruit Industries. *Adafruit IO Basics: Dashboards*.  
+  <https://learn.adafruit.com/adafruit-io-basics-dashboards>  
 
-- Adafruit IO. *Plataforma oficial*.  
-  https://io.adafruit.com  
+* Adafruit Industries. *Adafruit IO Basics: Digital Input*.  
+  <https://learn.adafruit.com/adafruit-io-basics-digital-input>  
 
-- Arduino Documentation. *UNO R4 WiFi Examples*.  
-  https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/  
+* Adafruit IO. *Plataforma oficial*.  
+  <https://io.adafruit.com>  
 
-- Wikipedia. *MQTT (Message Queuing Telemetry Transport)*.  
-  https://en.wikipedia.org/wiki/MQTT  
+* Arduino Documentation. *UNO R4 WiFi Examples*.  
+  <https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/>  
 
-- Wikipedia. *Internet of Things (IoT)*.  
-  https://en.wikipedia.org/wiki/Internet_of_things  
+* Wikipedia. *MQTT (Message Queuing Telemetry Transport)*.  
+  <https://en.wikipedia.org/wiki/MQTT>  
 
-- Arduino Documentation. *Arduino IDE*.  
-  https://docs.arduino.cc/software/ide/  
+* Wikipedia. *Internet of Things (IoT)*.  
+  <https://en.wikipedia.org/wiki/Internet_of_things>  
 
-- Adafruit Learning System. *Adafruit IO Arduino Library*.  
-  https://learn.adafruit.com/adafruit-io/arduino  
+* Arduino Documentation. *Arduino IDE*.  
+  <https://docs.arduino.cc/software/ide/>  
 
+* Adafruit Learning System. *Adafruit IO Arduino Library*.  
+  <https://learn.adafruit.com/adafruit-io/arduino>  

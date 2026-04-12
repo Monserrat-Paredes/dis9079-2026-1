@@ -22,13 +22,13 @@ Error 1: compiló pero en el serial monitor me daba un cáracter raro, lo busqu�
 
 ![error por baudios](./imagenes/error1_baud.png)
 
-Aquí lo edité: 
+Aquí lo edité:
 
 ![baudios solucionado](./imagenes/solucionado_baud.png)
 
 Teniendo eso solucionado lo volví a enviar el código
 
-Error 2: acá me estanqué un rato porque el serial monitor solo me tiraba "............" pero ningún mensaje, hasta que luego de un rato probando me apareció este mensaje y efectivamente como dijo Aaron me daba el error por el firmware del arduino, también me costó actualizarlo porque daba error y se quedaba pegada la aplicación, pero lo terminé solucionando solamente intentando de nuevo actualizarlo
+Error 2: acá me estanqué un rato porque el serial monitor solo me tiraba "............" pero ningún mensaje, hasta que luego de un rato probando me apareció este mensaje y efectivamente como dijo Aarón me daba el error por el firmware del arduino, también me costó actualizarlo porque daba error y se quedaba pegada la aplicación, pero lo terminé solucionando solamente intentando de nuevo actualizarlo.
 
 ![error por firmware](./imagenes/error2.png)
 
@@ -40,21 +40,21 @@ Con esto solucionado vuelvo a tirar el código al arduino y funciona!
 
 ![valores en serial monitor](./imagenes/serialmonitor1.png)
 
-Empezaron a aparecer los números en la sección "Feeds" en la página de Adafruit IO y viendo cómo funciona el dashboard creé uno con un block de "streams" para que ahi se puedan ir viendo los valores que envía el arduino, como la página de Adafruit estaba en inglés me guié de [esta página](https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/) para ir entendiendo cómo funcionaban 
+Empezaron a aparecer los números en la sección "Feeds" en la página de Adafruit IO y viendo cómo funciona el dashboard creé uno con un block de "streams" para que ahi se puedan ir viendo los valores que envía el arduino, como la página de Adafruit estaba en inglés me guié de [esta página](https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/) para ir entendiendo cómo funcionaban
 
 ![valores en feeds](./imagenes/valorfeed.png)
 
-Así se ve en el Dashboard que creé: 
+Así se ve en el Dashboard que creé:
 
 ![streams en dashboard](./imagenes/dashboardstreams.png)
 
-Como fue tan increíble decidí probar [este tutorial](https://learn.adafruit.com/adafruit-io-basics-color) que estába en la página de Adafruit que enviaron , que es sobre cómo controlar un LED RGB!
+Como fue tan increíble decidí probar [este tutorial](https://learn.adafruit.com/adafruit-io-basics-color) que estaba en la página de Adafruit que enviaron , que es sobre cómo controlar un LED RGB!
 
 Seguí paso a paso las instrucciones, busqué en los ejemplos de la biblioteca de Adafruit el número 13 que es el que tiene el código para el RGB:
 
 ![ejemplo 13 rgb](./imagenes/example13.png)
 
-Luego vi cómo se debian hacer las conecciones entre el LED y el arduino, fue fácil porque ya lo había hecho antes y tenía los materiales, así se veía conectado y tocaba probarlo
+Luego vi cómo se debian hacer las conexiones entre el LED y el arduino, fue fácil porque ya lo había hecho antes y tenía los materiales, así se veía conectado y tocaba probarlo
 
 ![LED conectado a arduino](./imagenes/circuitoled.jpg)
 
@@ -74,7 +74,7 @@ Los valores se muestran en el serial monitor y en la sección de Feeds según se
 
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
 
-Elegí investigar a Rafael Lozano-Hemmer, nacido en México en 1967, es un artista electrónico reconocido por sus instalaciones interactivas a gran escala. Se graduó en Química Física en la Universidad de Concordia en Montreal, Canadá. Desde finales de la década de 1990, ha desarrollado el concepto de "arquitectura relacional", que se centra en el uso de la tecnología para transformar espacios públicos y fomentar la interacción entre las personas y su entorno. 
+Elegí investigar a Rafael Lozano-Hemmer, nacido en México en 1967, es un artista electrónico reconocido por sus instalaciones interactivas a gran escala. Se graduó en Química Física en la Universidad de Concordia en Montreal, Canadá. Desde finales de la década de 1990, ha desarrollado el concepto de "arquitectura relacional", que se centra en el uso de la tecnología para transformar espacios públicos y fomentar la interacción entre las personas y su entorno.
 
 A lo largo de su carrera ha representado a México en eventos internacionales como la Bienal de Venecia (2007) y sus obras forman parte de colecciones en museos como el MoMA en Nueva York, la Tate en Londres y el Museo Reina Sofía en Madrid. Su trabajo se caracteriza por el uso de robótica, proyecciones digitales, sensores biométricos y redes de comunicación para crear experiencias en conjunto con el espectador mediante sus datos o movimientos.
 
@@ -86,10 +86,10 @@ Es muy interesante la sincronía lograda, el código no solo procesa la voz huma
 
 ### Bibliografía
 
-Lozano-Hemmer, R. (2019). Cloud Display. https://www.lozano-hemmer.com/cloud_display.php
+Lozano-Hemmer, R. (2019). Cloud Display. <https://www.lozano-hemmer.com/cloud_display.php>
 
-Lozano-Hemmer, R. (s. f.). Biography. https://www.lozano-hemmer.com/bio.php
+Lozano-Hemmer, R. (s. f.). Biography. <https://www.lozano-hemmer.com/bio.php>
 
-Wikipedia. (2026). Rafael Lozano-Hemmer. https://es.wikipedia.org/wiki/Rafael_Lozano-Hemmer
+Wikipedia. (2026). Rafael Lozano-Hemmer. <https://es.wikipedia.org/wiki/Rafael_Lozano-Hemmer>
 
-Roulx, O. (2019). Atmospheric Memory by Rafael Lozano-Hemmer: Cloud Display. Enki Magazine. https://enkimagazine.com/atmospheric-memory-hybrid-exhibition-merging-art-and-science/atmospheric-memory-by-rafael-lozano-hemmer-cloud-display-10-2019-at-unc2021-photo-by-olivier-groulx/
+Roulx, O. (2019). Atmospheric Memory by Rafael Lozano-Hemmer: Cloud Display. Enki Magazine. <https://enkimagazine.com/atmospheric-memory-hybrid-exhibition-merging-art-and-science/atmospheric-memory-by-rafael-lozano-hemmer-cloud-display-10-2019-at-unc2021-photo-by-olivier-groulx/>
