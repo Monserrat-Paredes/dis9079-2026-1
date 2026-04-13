@@ -35,6 +35,8 @@ y al terminar la instalación revisé las anotaciones de mis compañeros de grup
 
 ---
 
+### Exploración individual para entender y crear proyecto grupal
+
 Como el arduino y la raspberry las tienen mis compañeros decidí preguntarles y echar un vistazo a los avances que hicieron en clase para cambiar el Led RGB (nuestro proyecto de solemne) por medio de la página de Adafruit, también daré mi punto de vista y entendimiento del proyecto con la ayuda de la página donde se muestran los pasos: [en esta página](https://learn.adafruit.com/adafruit-io-basics-color/adafruit-io-setup)
 
 Lo primero que dice es que se debe iniciar sesión en Adafruit y guardar la llave de activación.
