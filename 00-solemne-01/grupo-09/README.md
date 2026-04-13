@@ -26,7 +26,7 @@ Por esta razón, se optó por trabajar con el envío y recepción de texto. A tr
 
 ### código para enviar
 
-Creamos diferentes Feed y Dashboards en donde a base de pruebas y errores logramos que nos funcionara algo en donde el arduino puedo recibir un mensaje.
+Creamos diferentes feeds y dashboards en Adafruit IO, en donde, a base de pruebas y errores, logramos que el Arduino pudiera recibir un mensaje.
 
 <img width="1600" height="494" alt="image" src="https://github.com/user-attachments/assets/b6eefcbf-2ec7-4485-927e-68bd675789a6" />
 
@@ -34,7 +34,7 @@ Creamos diferentes Feed y Dashboards en donde a base de pruebas y errores logram
 
 ## proceso
 
-El día lunes 06 fuimos los últimos en lograr conectarnos a Adafruit. Después de varios intentos, finalmente lo conseguimos. Inicialmente tuvimos problemas con la velocidad de conexión, lo que nos impedía visualizar correctamente en qué estado se encontraba el proceso. Con la ayuda de Aaron, decidimos cerrar Arduino y volver a abrirlo. Tras hacer esto, el sistema funcionó correctamente, aunque demoró un poco en cargar:)
+El día lunes 06 fuimos los últimos en lograr conectarnos a Adafruit. Después de varios intentos, finalmente lo conseguimos. Inicialmente tuvimos problemas con la velocidad de conexión, lo que nos impedía visualizar correctamente en qué estado se encontraba el proceso. Con la ayuda de Aaron, decidimos cerrar Arduino y volver a abrirlo. Tras hacer esto, el sistema funcionó correctamente, aunque demoró un poco en cargar.
 
 Para continuar con la solemne, intentamos utilizar un toggle en Adafruit, el cual, al encenderse y apagarse, debía controlar los LED del Arduino. Sin embargo, a pesar de modificar el código en múltiples ocasiones, no logramos que funcionara. Estuvimos aproximadamente dos horas intentando que el Arduino recibiera la información, pero no obtuvimos resultados.
 
