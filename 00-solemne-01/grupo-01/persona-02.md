@@ -83,7 +83,9 @@ Software utilizado:
 - Buscar: Adafruit IO Arduino.
 - Instalar versión 4.3.4 (abril 2026) o superior.
 
+
 <img width="445" height="386" alt="Libreria arduino" src="https://github.com/user-attachments/assets/d41cf0e5-0742-459a-81c9-512495ffe6f0" />
+
 
 ## Aprendizajes
 
@@ -105,11 +107,15 @@ Software utilizado:
 
 Así se ve cuando creas la cuenta y configuraciones:
 
+
 <img width="1244" height="785" alt="inicio sesion" src="https://github.com/user-attachments/assets/22641bc6-16a8-4bef-be95-4d321ec27b9f" />
+
 
 Después de crear la cuenta se ve así el inicio de sesión:
 
+
 <img width="1374" height="736" alt="inicio io" src="https://github.com/user-attachments/assets/176ee3ef-e288-40c9-aaba-d337fe1b199c" />
+
 
 ## Tener en cuenta por seguridad
 
