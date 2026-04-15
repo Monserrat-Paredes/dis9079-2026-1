@@ -1,4 +1,10 @@
-# sesion-04
+# sesion-04 
+
+Se trabajará con un router de TP-link el cual estará conectado a un computador Raspberry que tendrá siempre la misma IP (192.168.0.100).
+
+Si le escribes "ssh raspi@192.168.0.100" al Raspberry Pi te preguntará si te quieres conectar, y luego te pedirá una contraseña.
+
+-----
 
 HiveMQ: Plataforma y broker MQTT diseñada para la mensajería IoT (Internet de las Cosas), facilita la conexión entre dispositivos y la nube en tiempo real.
 
