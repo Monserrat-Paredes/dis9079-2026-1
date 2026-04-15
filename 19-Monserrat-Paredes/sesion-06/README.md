@@ -183,7 +183,7 @@ void loop() {
 ```
 
 
-Ejemplo calibrado
+## Ejemplo calibrado
 
 
 ```cpp
