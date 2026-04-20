@@ -16,9 +16,7 @@ Materiales que usaremos en clases:
 
 - Cables
 
-- Motor servo, tiene 3 terminales,
-- 
-Los servomotores tienen 3 terminales:
+- Motor servo (servomotores), tiene 3 terminales:
 
 Terminal positivo: Recibe la alimentación del motor (4 a 8 voltios)
 
