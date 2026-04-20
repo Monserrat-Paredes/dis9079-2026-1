@@ -11,7 +11,7 @@ Servo: 3 patitas
    - negra: gnd
    - amarilla: Donde le llega la instrucción
 
-> Cómo promedira un dato?
+> Cómo promediar un dato?
 
 Aprendimos a usar una breadBoard o protoboard si estas en Chile.
 
@@ -191,3 +191,87 @@ https://github.com/user-attachments/assets/a6b14a19-ce3a-43f0-82fa-37a7140e4892
 
 
 ```
+Mateo pasó este código para envuar informacion mediante el potenciometro al feed de aaron:
+
+```cpp
+#include <Servo.h>
+#include <WiFiS3.h>
+#include "Adafruit_MQTT.h"
+#include "Adafruit_MQTT_Client.h"
+
+// ── Credenciales ───────────────────────────────────────────
+#define WIFI_SSID    "iPhone de Vania"
+#define WIFI_PASS    "dilt1234"
+#define AIO_SERVER   "io.adafruit.com"
+#define AIO_PORT     1883
+#define AIO_USERNAME "udpmontoyamoraga"
+#define AIO_KEY      "secreto"
+#define AIO_FEED     AIO_USERNAME "/feeds/potenciometro-06"
+
+#define INTERVALO_PUBLISH 5000
+
+Servo miServo;
+WiFiClient wifiClient;
+Adafruit_MQTT_Client mqtt(&wifiClient, AIO_SERVER, AIO_PORT, AIO_USERNAME, AIO_KEY);
+Adafruit_MQTT_Publish feedPot(&mqtt, AIO_FEED);
+
+int lecturaAnterior = -1;
+unsigned long ultimoPublish = 0;
+
+void conectarMQTT() {
+  while (!mqtt.connected()) {
+    Serial.print("Conectando a Adafruit IO...");
+    int8_t ret = mqtt.connect();
+    if (ret == 0) {
+      Serial.println(" OK");
+    } else {
+      Serial.print(" Error: ");
+      Serial.println(mqtt.connectErrorString(ret));
+      mqtt.disconnect();
+      delay(3000);
+    }
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  miServo.attach(9);
+
+  Serial.print("Conectando WiFi");
+  WiFi.begin(WIFI_SSID, WIFI_PASS);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.print(" IP: ");
+  Serial.println(WiFi.localIP());
+}
+
+void loop() {
+  conectarMQTT();
+  mqtt.ping();
+
+  int lectura = analogRead(A0);
+  int angulo  = map(lectura, 0, 1023, 0, 180);
+  miServo.write(angulo);
+
+  unsigned long ahora = millis();
+  if (lectura != lecturaAnterior && (ahora - ultimoPublish >= INTERVALO_PUBLISH)) {
+    Serial.print("Publicando lectura: ");
+    Serial.println(lectura);
+
+    if (feedPot.publish((int32_t)lectura)) {
+      Serial.println("  ✓ OK");
+      lecturaAnterior = lectura;
+      ultimoPublish   = ahora;
+    } else {
+      Serial.println("  ✗ Fallo");
+    }
+  }
+
+  delay(15);
+}
+```
+
+![feed](./imagenes/feedpote.png)
+
