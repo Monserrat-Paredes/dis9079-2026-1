@@ -108,3 +108,6 @@ void loop()
 }
 ```
 
+Luego con el potenciometro que está en la protoboard hicimos que se moviera el motor
+
+![imagén con motor servo](./imagenes/motorservo.jpeg)
