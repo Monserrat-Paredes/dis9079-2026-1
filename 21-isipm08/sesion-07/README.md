@@ -3,19 +3,34 @@
 lunes 20 abril 2026
 
 ## Potenciómetro 
-
++ Componente eléctronico pasivo, actúa como resistencia variable manualmente
++ 3 terminales: modifica resistencia eléctrica de un circuito
++ Permite controlar intensidad, corriente y voltaje
+  
 ## LDR
++ Componente eléctronico cuya resistencia varía de forma inversamente proporcional a la luz
++ Más luz menor resistencia - mayor oscuridad mayor resistencia
 
 ## Servo
++ Tres terminales 
+  - Alimentación (naranjo) 
+  - Tierra (café)
+  - Donde se dirige (amarilla)
++ Usa retoalimentación (potenciómetro + circuito eléctrico) para girar a ángulos específicos o mantener su posición
 
-## Protoboard
+## Protoboard (breadboard) 
 + Placa de pruebas
++ Ensambla y testea circuitos sin necesidad de soldar
++ Prototipado de forma fugaz
 + Arduino power bredboard
-+ Positivo (rojo) mismo metal de forma vertical
-+ Negativo (negro ver café) mismo metal de forma vertical
++ Positivo (rojo) mismo metal de forma vertical "alimentación"
++ Negativo (negro verde café) mismo metal de forma vertical
 + a b c d e: mismo metal de forma horizontal
 + f g h i j: mismo metal de forma horizontal
 + GND: TIERRA
+
+## Cad
+computer aided design
 
 ## Código mover la manito :)
 ```cpp
