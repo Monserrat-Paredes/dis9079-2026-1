@@ -2,32 +2,55 @@
 
 lunes 20 abril 2026
 
-placa de prueba 
-(protoboard)
-arduino power breardboard 
+Placa de prueba (Protoboard)
 
-* más con el más el cable de color rojo
-* menos con menos el cable de color verde
-  
-servo motor 
-github.com/diseñoUDP/apuntes-maquinas revisar 
+La Protoboard es una placa que permite armar circuitos electrónicos sin necesidad de soldar componentes. Se utiliza principalmente para pruebas y prototipos.
+Para alimentar la protoboard se usa el módulo Arduino Power Breadboard, que entrega voltaje a las líneas laterales.
 
-# tinkercad.com/dashboard
-crear sircuitos atraves de imagenes interactivas 
-el potenciometro se colocara en el 8, 10 y 12 
-la patita 8 es positivo y la patita izquierda negativo 
-mientas tanto la patita de almedio es el que regula 
-analogo A0 a C9 
+El cable rojo se conecta al riel de positivo (+)
+El cable verde (o negro, comúnmente) se conecta al riel de negativo (−)
+Esto permite distribuir energía a todo el circuito de manera ordenada.
+Servo motor
 
-<img width="1295" height="645" alt="tinkercad" src="https://github.com/user-attachments/assets/96510f88-a6df-49dd-80bb-b7e64b6c5200" />
+El Servo motor es un dispositivo que permite controlar la posición angular con precisión.
+Generalmente tiene 3 cables:
 
+Rojo → alimentación (+)
+Negro o café → tierra (−)
+Amarillo o naranja → señal (control desde Arduino)
+Se utiliza mucho en proyectos donde se requiere movimiento controlado, como brazos robóticos o mecanismos interactivos.
 
-## resultados
+Uso de Tinkercad
 
-https://github.com/user-attachments/assets/62a4e77d-af52-41db-9803-5122433b0dae
+En la plataforma Tinkercad se pueden crear circuitos de forma virtual mediante simulaciones interactivas.
+Permite armar circuitos con Arduino sin necesidad de componentes físicos
+Se pueden probar conexiones y códigos antes de implementarlos en la vida real
+Facilita el aprendizaje mediante visualización interactiva
+Potenciómetro
+El Potenciómetro es un componente que permite variar la resistencia y controlar valores como voltaje o señal.
 
-<img width="1872" height="875" alt="adafruit" src="https://github.com/user-attachments/assets/a98087f5-1207-4dfe-b631-43262d6f2cce" />
+Conexión:
 
+Una patita lateral → positivo (+)
+Otra patita lateral → negativo (−)
+Patita del medio → salida variable (señal)
 
+Funcionamiento:
 
+La patita central entrega un valor variable dependiendo de la posición del eje del potenciómetro.
+En Arduino:
 
+Se conecta a un pin analógico, por ejemplo A0
+En tu caso:
+
+Señal → A0
+Lectura analógica → permite controlar valores (como el movimiento de un servo)
+Relación con Arduino
+El Arduino recibe la señal del potenciómetro (por ejemplo en A0) y la interpreta para controlar otros componentes, como el servo motor.
+
+Ejemplo de flujo:
+
+Giras el potenciómetro
+Arduino lee el valor analógico
+Ese valor se transforma en un ángulo
+El servo motor se mueve según ese ángulo
