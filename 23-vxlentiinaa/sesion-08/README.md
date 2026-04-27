@@ -15,6 +15,7 @@ lunes 27 abril 2026
 
 ### CircuitPython
 
+<img src="./imagenes/circuitPython.png" alt="tinkercad" width="400">
+
 - CircuitPython es un lenguaje de programación diseñado para simplificar la experimentación y el aprendizaje de la programación en placas de microcontroladores de bajo costo.
 - Tiene 651 placas para utilizar
-- 
