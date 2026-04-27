@@ -16,3 +16,11 @@ Borrar firmware a una Raspberry Pi
 
 https://circuitpython.org/board/raspberry_pi_pico2_w/
 
+![Descraga Compatible](./imagenes/descarga_circuitpython.png)
+
+Descarga de versión compatible con raspberry pi pico 2w, demoró 1 segundo
+
+
+
+
+
