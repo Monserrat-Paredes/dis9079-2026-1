@@ -34,3 +34,11 @@ descargar circuitpython libraries
 * buscar la adafruit_minimqtt
 * luego adafruit_connection_manager_.mpy
 * luego adafruit_ticks_.mpy
+
+  ## potenciometro > raspi > adafruit io
+  ## adafruit io >
+
+  <img width="1347" height="780" alt="placa pico2" src="https://github.com/user-attachments/assets/3dbe075c-8f73-4ca3-815a-1e05f7d64b18" />
+  sin potenciometro conectado
+
+los comentarios en python es con el # 
