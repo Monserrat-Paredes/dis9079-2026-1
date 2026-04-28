@@ -24,17 +24,33 @@ mateo hermoso me ayudó, me prestó su raspi porque la que tengo se me quedó en
 
 descargamos 10.2.0, el archivo uf2
 
-**pantallazo de eso**
+![raspi0](./imagenes/raspberryproceso0.JPG)
 
 - se abrirá este archivo
 
-**poner imagen de este archivo que se descargó**
+![raspi1](./imagenes/pico2w.JPG)
 
-**poner imagen de carpeta con el código cuando ya arrastramos el archivo que descargamos, lo infectamos**
+- este archivo debemos arrastrarlo a la carpeta de circuitpy
+
+![raspi2](./imagenes/raspberryproceso2.JPG)
+
+- al arrastrar el archivo aquí, ya está dentro de nuestra raspberry y se incluye todo lo que trae
 
 - ahora usaremos putty
 
-**insertar imágenes de instalación de putty**
+**proceso de instalación y configuración de putty**
+
+![putty0](./imagenes/instalacionputty0.JPG)
+
+- descargamos la versión que aparece de las primeras
+
+![putty1](./imagenes/instalacionputty1.JPG)
+
+![putty2](./imagenes/instalacionputty2.JPG)
+
+![putty3](./imagenes/instalacionputty3.JPG)
+
+![putty4](./imagenes/instalacionputty4.JPG)
 
 - quedé en cuando se abre el archivo readme del putty, me perdí brígido después de eso
 
@@ -42,16 +58,18 @@ descargamos 10.2.0, el archivo uf2
 
 - en mi caso era COM 16, abrimos PUTTY
 
-**insertar imagen de putty abierto**
+![puttyuno](./imagenes/putty1.JPG)
 
 - en putty debemos apretar SERIAL y cambiar al COM que nos detectó en arduino, en este caso era **COM16**, cambiamos los baudios a 115200 y apretamos **SAVE**
 
 
 -  descargar bibliotecas para circuitpython desde la página y meterlas en el archivo **LIB** de **CIRCUITPY** que se abre cuando conectamos la **RASPI**
 
-**insertar pantallazo de las bibliotecas que debemos descargar desde la página**
+![libreria](./imagenes/libreriacircuitpython.JPG)
 
-**insertar pantallazo de bibliotecas en LIB carpeta**
+- debemos descargar esto y extraerlo
+
+- tenemos que meter 1 carpeta y 2 archivos dentro de nuestro archivo LIB en circuitpy, son los siguientes
 
 **insertar pantallazo de la terminal al poner OPEN en putty**
 
