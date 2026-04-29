@@ -3,7 +3,7 @@
 lunes 27 abril 2026
 # Trabajo en clases: Python en Raspberry Pi
 
-En esta actividad trabajaremos con **Python** en una **Raspberry Pi**, utilizando recursos descargados desde GitHub.
+En esta actividad trabajaremos con **Python** en una **Raspberry Pi**, utilizando recursos descargados.
 
 ## ¿Qué es Python?
 Python es un lenguaje de programación fácil de escribir y entender. Se caracteriza por:
@@ -29,6 +29,8 @@ Usaremos **CircuitPython**, una adaptación de Python diseñada para microcontro
 - Buscar: `Adafruit CircuitPython Bundle 10.x`
 2. Descargar el archivo `.zip` correspondiente.
 3. Descomprimir el archivo.
+4.Descargar Putty
+5.Configurar putty para ocupar nuestar Raspberry Pi y nuestro codigo
 
 ## Instalación de bibliotecas
 1. Entrar a la carpeta `lib` dentro del bundle descargado.
@@ -37,8 +39,9 @@ Usaremos **CircuitPython**, una adaptación de Python diseñada para microcontro
 adafruit_connection_manager
 adafruit_ticks
 para que funcione el codigo
-#### Recordatorio.grabar el codigo 
-## potenciometro en la rasperry pi pico 
+   
+#### Recordatorio el grabar el codigo 
+## Ejercicio en clases potenciometro en la rasperry pi pico 
 ![raspberry](imagenes/potenciometro.jpg)
 ![raspberry](imagenes/potenciometro_coneccion.jpg)
 ## Para la solemne 2 
