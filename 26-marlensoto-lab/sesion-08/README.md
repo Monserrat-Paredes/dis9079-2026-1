@@ -29,8 +29,10 @@ Usaremos **CircuitPython**, una adaptación de Python diseñada para microcontro
 - Buscar: `Adafruit CircuitPython Bundle 10.x`
 2. Descargar el archivo `.zip` correspondiente.
 3. Descomprimir el archivo.
-4.Descargar Putty
-5.Configurar putty para ocupar nuestar Raspberry Pi y nuestro codigo
+4.Descargar Putty.
+5.Configurar putty para ocupar nuestar Raspberry Pi y nuestro codigo.
+
+![putty](imagenes/putty.jpg)
 
 ## Instalación de bibliotecas
 1. Entrar a la carpeta `lib` dentro del bundle descargado.
